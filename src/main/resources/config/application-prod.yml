@@ -27,10 +27,10 @@ spring:
         livereload:
             enabled: false
     datasource:
-        type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://localhost:5432/jhipster
-        username: jhipster
-        password:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgres://iqlliwuqollxfh:34fb4360989503e3aaa518ae3e6c91f6bc42455a1481a063a93921050f1fafbb@ec2-23-21-197-231.compute-1.amazonaws.com:5432/ddgka8n8v7em6v
+        username: iqlliwuqollxfh
+        password: 34fb4360989503e3aaa518ae3e6c91f6bc42455a1481a063a93921050f1fafbb
     jpa:
         database-platform: io.github.jhipster.domain.util.FixedPostgreSQL82Dialect
         database: POSTGRESQL
